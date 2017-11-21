@@ -1,0 +1,36 @@
+body {
+  font-size: 18px;
+  font-family: Helvetica;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+}
+
+.menu {
+  color: white
+  line-height: 1.4;
+  background-color: cadetblue;
+  width: 960px;
+  display: inline-flex;
+}
+
+span a, .menu span { /* NOTE: Make the text in the header white */
+  color: white;
+}
+
+
+
+.menu img {
+  align-items: center;
+
+}
