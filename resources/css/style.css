@@ -50,6 +50,7 @@ nav span {
 nav a {
   color: white; /* NOTE: Making the links white */
   font-size: 1rem;
+  text-decoration: none;
 }
 
 ul li {
@@ -62,6 +63,9 @@ ul li {
   padding: 1.5rem 5rem;
   display: inline-block; /* NOTE: The block will shrink to the width of the padding with this line */
   margin-top: 10rem; /* NOTE: This positions the block partway down the screen */
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
 }
 
 .flex {
@@ -98,6 +102,38 @@ div {
   width: 5rem;
   margin-bottom: 1rem; /* NOTE: This line will shrink the icons because it's putting a margin around the bottom of the icons
   but the height specified in .icon is only 8rem, so it has to reduce the size of the images to fit them in. */
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
+
+.title {
+  background-color: cadetblue;
+  margin-bottom: 1rem;
+  color: white;
+  width: 10rem;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+footer {
+  background-color: azure;
+  height: 8rem;
+  padding: 4rem;
+  display: flex; /* NOTE: This puts the image and text on one line.  */
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
 }
 
 @media only screen and (max-width 700px) {
