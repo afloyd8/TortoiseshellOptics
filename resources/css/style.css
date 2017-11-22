@@ -68,3 +68,44 @@ ul li {
   display: flex;
   justify-content: flex-end;
 }
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+.icon img.paper {
+  width: 3.5rem;
+}
+
+
+div {
+  display: block;
+}
+
+.icon img {
+  width: 5rem;
+  margin-bottom: 1rem; /* NOTE: This line will shrink the icons because it's putting a margin around the bottom of the icons
+  but the height specified in .icon is only 8rem, so it has to reduce the size of the images to fit them in. */
+}
+
+@media only screen and (max-width 700px) {
+  .mobile-menu {
+    display: block;
+  }
+
+  ul li {
+    display: none;
+  }
+}
